@@ -15,8 +15,9 @@ body {
   padding: 0;
   left: 0;
   top: 0;
-  font-size: 100%;
+  font-size: 2vw;
 }
+
 
 /* ROOT FONT STYLES */
 
@@ -183,6 +184,9 @@ p {
 }
 
 @media only screen and (min-width: 33.75em) {  /* 540px */
+  body{
+    font-size:150%;
+  }
   .container {
     width: 80%;
   }
