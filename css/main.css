@@ -1,52 +1,211 @@
-nav{
+nav {
     background: #D1BF81;
-    padding:1rem  0  0 1rem ;
+    padding: 1rem 0 0 1rem;
     box-sizing: border-box;
 }
 
-.socials{
+.socials {
     text-align: right;
 }
-.logo{
+
+.logo {
     position: absolute;
     height: 10rem;
 }
 
-.jumbotron{
+.jumbotron {
     background: #D1BF81;
     height: 30rem;
-    margin:0;
-    padding:0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.img{
     width:100%;
 }
 
-
-.img-hero{
+.img-hero {
     background-image: url("../img/Hero_1.jpg");
-    background-size:cover;
+    background-size: cover;
     background-position: bottom right;
-    height:35rem;
-    box-shadow: 0px 10px 38px #17243b;  
+    height: 35rem;
+    box-shadow: 0px 10px 38px #17243b;
 
 }
 
-.img-hero h1{
-    color:#FFF;
-    text-align:left;
-    padding-top:4rem; 
+.img-hero h1 {
+    color: #FFF;
+    text-align: left;
+    padding-top: 4rem;
     transform-style: preserve-3d;
-    transform: perspective(1000px); 
+    transform: perspective(1000px);
 }
 
 
-.social-icon{
-    width:1.5rem;
-    margin-right:.5rem;
+.social-icon {
+    width: 1.5rem;
+    margin-right: .8rem;
 }
 
 .social-icon path {
-    fill:#FFF;
+    fill: #FFF;
 }
-.social-icon:last-child{
-    margin-right:2rem;
+
+.social-icon:last-child {
+    margin-right: 2rem;
+}
+
+.spliter
+{
+    margin:2rem;
+    height:4rem;
+}
+
+footer
+{
+    margin:0;
+    padding:2rem;
+    height:8rem;
+    box-sizing: border-box;
+}
+
+footer div{
+    color: #D1BF81;
+}
+/*mailchimp*/
+
+
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    width: 100%
+}
+
+#mc_embed_signup h2 {
+    font-weight: bold;
+    padding: 0;
+    margin: 15px 0;
+    font-size: 1.4em;
+}
+
+#mc_embed_signup input {
+    border: 2px solid #999;
+   
+    -webkit-appearance: none;
+}
+
+#mc_embed_signup input[type=checkbox] {
+    -webkit-appearance: checkbox;
+}
+
+#mc_embed_signup input[type=radio] {
+    -webkit-appearance: radio;
+}
+
+#mc_embed_signup input:focus {
+    border-color: #333;
+}
+
+#mc_embed_signup .button {
+    clear: both;
+    background-color: #3b5786;
+    border: 0 none;
+    border-radius: 4px;
+    font-size:1rem;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    height: 3rem;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: top;
+    white-space: nowrap;
+    width: auto;
+    transition: all 0.23s ease-in-out 0s;
+}
+
+#mc_embed_signup .button:hover {
+    background-color: #263b5f;
+}
+
+#mc_embed_signup .small-meta {
+    font-size: 11px;
+}
+
+#mc_embed_signup .nowrap {
+    white-space: nowrap;
+}
+
+#mc_embed_signup .clear {
+    clear: none;
+    display: inline;
+}
+
+#mc_embed_signup label {
+    display: block;
+    font-size: 16px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+#mc_embed_signup input.email {
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0 0.4rem;
+    margin: 0;
+    height: 3rem;
+    min-height: 32px;
+    width: 78%;
+    min-width: 130px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    box-sizing: border-box;
+
+}
+
+#mc_embed_signup input.button {
+    margin: 0 0 10px 0;
+    width:20%;
+    min-width: 90px;
+}
+
+#mc_embed_signup div#mce-responses {
+    float: left;
+    top: -1.4em;
+    padding: 0em .5em 0em .5em;
+    overflow: hidden;
+    width: 90%;
+    margin: 0 5%;
+    clear: both;
+}
+
+#mc_embed_signup div.response {
+    margin: 1em 0;
+    padding: 1em .5em .5em 0;
+    font-weight: bold;
+    float: left;
+    top: -1.5em;
+    z-index: 1;
+    width: 80%;
+}
+
+#mc_embed_signup #mce-error-response {
+    display: none;
+}
+
+#mc_embed_signup #mce-success-response {
+    color: #529214;
+    display: none;
+}
+
+#mc_embed_signup label.error {
+    display: block;
+    float: none;
+    width: auto;
+    margin-left: 1.05em;
+    text-align: left;
+    padding: .5em 0;
 }
