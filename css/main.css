@@ -1,0 +1,52 @@
+nav{
+    background: #D1BF81;
+    padding:1rem  0  0 1rem ;
+    box-sizing: border-box;
+}
+
+.socials{
+    text-align: right;
+}
+.logo{
+    position: absolute;
+    height: 10rem;
+}
+
+.jumbotron{
+    background: #D1BF81;
+    height: 30rem;
+    margin:0;
+    padding:0;
+    width:100%;
+}
+
+
+.img-hero{
+    background-image: url("../img/Hero_1.jpg");
+    background-size:cover;
+    background-position: bottom right;
+    height:35rem;
+    box-shadow: 0px 10px 38px #17243b;  
+
+}
+
+.img-hero h1{
+    color:#FFF;
+    text-align:left;
+    padding-top:4rem; 
+    transform-style: preserve-3d;
+    transform: perspective(1000px); 
+}
+
+
+.social-icon{
+    width:1.5rem;
+    margin-right:.5rem;
+}
+
+.social-icon path {
+    fill:#FFF;
+}
+.social-icon:last-child{
+    margin-right:2rem;
+}
