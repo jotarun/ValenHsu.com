@@ -15,7 +15,7 @@ nav {
 
 .jumbotron {
     background: #D1BF81;
-    height: 20rem;
+    height: 35vw;
     margin: 0;
     padding: 0;
     width: 100%;
@@ -29,7 +29,7 @@ nav {
     background-image: url("../img/Hero_1.jpg");
     background-size: cover;
     background-position: bottom right;
-    height: 25rem;
+    height: 43vw;
     box-shadow: 0px 10px 38px #17243b;
 
 }
@@ -41,19 +41,22 @@ nav {
     transform-style: preserve-3d;
     transform: perspective(1000px);
 }
-
+.socials a{
+width:2rem;
+display: inline-block;
+}
 
 .social-icon {
     width: 1.5rem;
-    margin-right: .8rem;
 }
 
 .social-icon path {
     fill: #FFF;
 }
 
-.social-icon:last-child {
-    margin-right: 2rem;
+
+.socials a:last-child {
+    margin-right: 1rem;
 }
 
 .spliter
@@ -64,6 +67,7 @@ nav {
 
 footer
 {
+    font-size:1rem;
     margin:0;
     padding:2rem;
     height:8rem;
