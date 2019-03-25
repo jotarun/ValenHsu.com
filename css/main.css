@@ -67,8 +67,8 @@ display: inline-block;
 
 .spliter
 {
-    margin:2vw;
-    height:5vw;
+    margin:1rem;
+    height:10vw;
 }
 
 footer
@@ -168,7 +168,6 @@ footer div{
     height: 3rem;
     min-height: 32px;
     width: 78%;
-    min-width: 130px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -179,7 +178,6 @@ footer div{
 #mc_embed_signup input.button {
     margin: 0 0 10px 0;
     width:20%;
-    min-width: 90px;
 }
 
 #mc_embed_signup div#mce-responses {
