@@ -1,7 +1,12 @@
 nav {
     background: #D1BF81;
-    padding: 1rem 0 0 1rem;
     box-sizing: border-box;
+}
+
+@media only screen and (min-width: 33.75em) {  /* 540px */
+    nav{
+        padding: 1rem 0 0 1rem;
+    }
 }
 
 .socials {
@@ -20,6 +25,7 @@ nav {
     padding: 0;
     width: 100%;
 }
+
 
 .img{
     width:100%;
@@ -61,8 +67,8 @@ display: inline-block;
 
 .spliter
 {
-    margin:2rem;
-    height:4rem;
+    margin:2vw;
+    height:5vw;
 }
 
 footer
@@ -212,4 +218,11 @@ footer div{
     margin-left: 1.05em;
     text-align: left;
     padding: .5em 0;
+}
+
+.grid-display p{
+
+    border:#FFF solid 1px;
+
+    text-align: center;
 }

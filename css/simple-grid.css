@@ -15,7 +15,7 @@ body {
   padding: 0;
   left: 0;
   top: 0;
-  font-size: 2vw;
+  font-size:1vw;
 }
 
 
@@ -25,6 +25,8 @@ body {
   font-family: 'Roboto', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
+  box-sizing: border-box;
+
 }
 
 /* TYPOGRAPHY */
@@ -248,7 +250,7 @@ p {
 
 @media only screen and (min-width: 60em) { /* 960px */
   .container {
-    width: 75%;
+    width: 70%;
     max-width: 60rem;
   }
 }
