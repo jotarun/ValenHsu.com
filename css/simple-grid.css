@@ -3,7 +3,7 @@
 *** (C) ZACH COLE 2016
 **/
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
 
 /* UNIVERSAL */
 
@@ -22,7 +22,7 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Roboto', Helvetica, sans-serif;
+  font-family: 'Roboto', 'PingFang TC','Microsoft JhengHei', Helvetica, sans-serif;
   color: #333447;
   line-height: 1.5;
   box-sizing: border-box;
